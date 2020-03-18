@@ -151,6 +151,13 @@ npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --image
 ```
 _15. Para confirmar que la aplicación ha sido desplegada busque la aplicación en el proyecto creado en la consola Web d Open Shift, y seleccione el link con el enlace a la aplicación.
 
+<img width="789" alt="3" src="https://user-images.githubusercontent.com/60987042/76919117-f222bc80-6895-11ea-835e-cb689f2b61bb.PNG">
+
+
+_Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada._
+
+<img width="688" alt="4" src="https://user-images.githubusercontent.com/60987042/76919471-074c1b00-6897-11ea-95c7-e8675b91ec80.PNG">
+
 ## Despliegue Aplicación CRUD en Angular 📦
 
 Como ejercicio OPCIONAL se puede realizar el despligue de una aplicación en una arquitectura multi-capa.  Esta aplicación de ejemplo es una aplicación que permite crear transacciones (giros), que son almacenados en una base de datos.   
