@@ -163,10 +163,10 @@ La aplicación esta compuesta por 3 contenedores:
 
 Para realizar este ejercicio, se pueden seguir las siguientes guias, en donde se encuentra el código de la aplicación de ejemplo: 
 
-Desplieuge de front de aplicación:
+Despliegue de front de aplicación:
 https://github.com/emeloibmco/AngularWebFrontCRUD
 
-Desplieuge de base de datos y back-end de la aplicación:
+Despliegue de base de datos y back-end de la aplicación:
 https://github.com/emeloibmco/AngularWebCRUDMongo
 
 Es recomendable realizar el despliegue del back-end, y luego el despliegue del front.  Se requiere modificar las credenciales y las URL's especificas cuando para completar el ejercicio. 
