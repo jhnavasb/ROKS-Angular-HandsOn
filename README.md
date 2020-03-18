@@ -6,7 +6,9 @@ _Para el desarrollo de este proyecto se tiene como base el desarrollo de una apl
 
 ## Despliegue en OpenShift desde IBM Cloud shell: 🚀
 
-_Iniciualmente debe acceder al shell de IBM Cloud desde el siguinete link:_
+### Haga 'login' a IBM Cloud desde la línea de comando
+
+_Inicialmente debe acceder al shell de IBM Cloud desde el siguiente link:_
 ```
 https://cloud.ibm.com/shell
 ```
@@ -23,24 +25,16 @@ https://identity-2.us-south.iam.cloud.ibm.com/identity/passcode
 ```
 _Al digitar el comando anterior nos aparecera una pregunta en la cual debemos indicar el numero perteneciente a la cuenta en la que se va a tranajar._
 
-_2.	Configure el entorno de trabajo. Para esto debe colocar el siguiente comando en la terminal._
-```
-ibmcloud target
-```
-_Si se ve que faltan faltan algunos campos por configurar,  para hacerlo se debe digitar los siguientes comandos._
+_2.	Configure el entorno de trabajo. Es necesario asignar (target) la region y el grupo de recursos, en donde esta desplegado el cluster de Open Shift, que vamos a utilizar en el ejercicio.
+
+Para esto debe colocar el siguiente comando en la terminal._
 ```
 ibmcloud target -r us-east -g openshift-workshop
 ```
-_y por ultimo digitar el siguiente comando:_
-```
-ibmcloud target --cf
-```
-_Al digitar el comando anterior nos aparecera una pregunta en la cual debemos el numero perteneciente a la organizacion en la que se desea trabajar._
-
-_De este modo damos por terminada la configuración inicial para el despliegue de la aplicación._
+_De este modo tenemos el 'login' en IBM Cloud y el ingreso por linea de comando al cluster de Open Shift, para iniciar para el despliegue de la aplicación._
 
 
-## Despliegue 📦
+### Acceda el cluster de Open Shift (ROKS) desplegado en IBM Cloud 📦
 
 
 _3.	Inicie sesión e ingrese desde la CLI de OpenShift al clúster en el que se va a trabajar._
@@ -63,12 +57,15 @@ _•	Diríjase a la sección de clústers y dar clic en el que se desea acceder.
 
 _•	Se da clic en el botón OpenShift web console._
 
-_•	Ahora en la parte superior derecha se da clic sobre el ID del correo con el que ingresamos y luego en la sección que dice Copy Login Command._
+### Haga 'login' en el cluster de Open Shift (ROKS) desde la linea de comando 📦
 
+_•	Ahora en la parte superior derecha se da clic sobre el ID del correo con el que ingresamos y luego en la sección que dice Copy Login Command._
 
 <img width="144" alt="1" src="https://user-images.githubusercontent.com/60987042/76917049-53479180-6890-11ea-91a1-b2c2c9213729.PNG">
 
 _•	Y por último volvemos a la terminal que se estaba utilizando pegamos y damos enter._
+
+### Cree un nuevo proyecto en Open Shift para desplegar las aplicaciones 📦
 
 _4.	Cree un nuevo proyecto en el cluster de la siguiente manera:_
 ```
@@ -82,13 +79,14 @@ _5.	Acceda al proyecto que acabo de crear de la siguiente manera:_
 oc project <projectname>
 ```
 
+## Despliegue Aplicación Hello World en Angular 📦
+
 _6.	Clone el repositorio de la aplicación que se desea desplegar._
 
 _**App de hello Word en angular:** https://github.com/emeloibmco/AngularHelloWorld_
 
-_**App de listas en angular:** https://github.com/emeloibmco/AngularWebList_
 
-_7.	Desde el Shell de IBM cloud digitar el comando:_
+_7.	Desde el Shell de IBM cloud digite el comando:_
 
 ```
 Git clone <url_repositorio>
@@ -99,15 +97,10 @@ _•	Para la carpeta del proyecto Hello word:_
 ```
 cd AngularHelloWorld
 ```
-•	Para la carpeta del proyecto listas.
-```
-cd AngularWebList
-```
 _9.	Para desplegar la aplicación en OpenShift es necesario escribir el siguiente comando:_
 ```
 npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --imageTag=10.x --build.env OUTPUT_DIR=dist/angular-web-app --expose
 ```
-
 _El resultado de este comando va a ser una respuesta de este tipo, que nos indica que 
 la aplicación se desplego correctamente._
 
@@ -134,6 +127,54 @@ _Y por último solo faltaría dar clic en el link que lo llevara a la aplicació
 <img width="688" alt="4" src="https://user-images.githubusercontent.com/60987042/76919471-074c1b00-6897-11ea-95c7-e8675b91ec80.PNG">
 
 _De esta forma se daría por terminado el despliegue de la aplicación angular en openshift._
+
+## Despliegue Aplicación Lista en Angular 📦
+
+_11.	Clone el repositorio de la aplicación que se desea desplegar._
+
+_**App de listas en angular:** https://github.com/emeloibmco/AngularWebList_
+
+_12.	Desde el Shell de IBM cloud digitar el comando:_
+
+```
+Git clone <url_repositorio>
+```
+_13.	Dirigirse desde a esta carpeta con el comando:_
+
+•	Para la carpeta del proyecto listas.
+```
+cd AngularWebList
+```
+_14.	Para desplegar la aplicación en OpenShift es necesario escribir el siguiente comando:_
+```
+npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --imageTag=10.x --build.env OUTPUT_DIR=dist/angular-web-app --expose
+```
+_15. Para confirmar que la aplicación ha sido desplegada busque la aplicación en el proyecto creado en la consola Web d Open Shift, y seleccione el link con el enlace a la aplicación.
+
+## Despliegue Aplicación CRUD en Angular 📦
+
+Como ejercicio OPCIONAL se puede realizar el despligue de una aplicación en una arquitectura multi-capa.  Esta aplicación de ejemplo es una aplicación que permite crear transacciones (giros), que son almacenados en una base de datos.   
+
+La aplicación esta compuesta por 3 contenedores: 
+
+- Front, front desarrollado en Angular, para la interfaz de usuario Web
+- CRUD,  backend desarrollado en express, que expone API's para la operaciones hacia la base de datos
+- MongoDB, un contenedor con el motor de la base de datos MongoDB
+
+Para realizar este ejercicio, se pueden seguir las siguientes guias, en donde se encuentra el código de la aplicación de ejemplo: 
+
+Desplieuge de front de aplicación:
+https://github.com/emeloibmco/AngularWebFrontCRUD
+
+Desplieuge de base de datos y back-end de la aplicación:
+https://github.com/emeloibmco/AngularWebCRUDMongo
+
+Es recomendable realizar el despliegue del back-end, y luego el despliegue del front.  Se requiere modificar las credenciales y las URL's especificas cuando para completar el ejercicio. 
+
+Como ejercicio adicional, se recomienda configurar ConfigMap para utlizar parametros en variables de ambiente  para las URL's, y Secrets para almacenar credenciales y contraseñas en Open Shift.
+
+La siguiente es la URL de el despliegue de esta aplicación demo:
+http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/inicio
 
 # _ANEXOS._
 
@@ -180,7 +221,15 @@ _De estos archivos debemos copiar el que tiene por nombre oc y pegarlo en la car
 ```
 C:\Program Files\IBM\Cloud\bin
 ```
+## Referencias
 
+La documentación en linea de IBM Cloud Red Hat OpenShift Managed, se encuentra en el siguiente enlace:
+
+https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started
+
+En la siguiente página se encuentra la información de administración y configuración de Open Shift 3.11.
+
+https://access.redhat.com/documentation/en-us/openshift_container_platform/3.11/
 
 ## Autores ✒️
 
