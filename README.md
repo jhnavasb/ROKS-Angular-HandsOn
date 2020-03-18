@@ -181,38 +181,6 @@ _De estos archivos debemos copiar el que tiene por nombre oc y pegarlo en la car
 C:\Program Files\IBM\Cloud\bin
 ```
 
-## Despliegue en OpenShift desde la consola de su computador (cmd): 🚀
-
-
-_1.	Inicie sesión desde la consola de su computador, para hacerlo utilizamos el siguiente comando:_
-
-```
-ibmcloud login --sso
-```
-_Al digitar el comando anterior nos aparece una pregunta la cual debemos responder con yna **Y**_
-
-_En este momneto nos pide un codigo de seguridad, el cual debemos obtener en el siguiente link y pegarlo en la consola de su computador._
-```
-https://identity-2.us-south.iam.cloud.ibm.com/identity/passcode
-```
-_Al digitar el comando anterior nos aparecera una pregunta en la cual debemos indicar el numero perteneciente a la cuenta en la que se va a tranajar._
-
-_2.	Configure el entorno de trabajo. Para esto debe colocar el siguiente comando en la terminal._
-```
-ibmcloud target
-```
-_Si se ve que faltan faltan algunos campos por configurar,  para hacerlo se debe digitar los siguientes comandos._
-```
-ibmcloud target -r us-east -g openshift-workshop
-```
-_y por ultimo digitar el siguiente comando:_
-```
-ibmcloud target --cf
-```
-_Al digitar el comando anterior nos aparecera una pregunta en la cual debemos el numero perteneciente a la organizacion en la que se desea trabajar._
-
-_De este modo damos por terminada la configuración inicial para el despliegue de la aplicación._
-
 
 ## Autores ✒️
 
