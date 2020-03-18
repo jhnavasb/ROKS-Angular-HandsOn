@@ -120,7 +120,7 @@ _•Ingrese a la sección de openshift web console._
 
 _•Buscar el proyecto que creo con sus iniciales y buscar la aplicación que se desplego._
 
-<img width="789" alt="3" src="https://user-images.githubusercontent.com/60987042/76919117-f222bc80-6895-11ea-835e-cb689f2b61bb.PNG">
+![11](https://user-images.githubusercontent.com/60987042/77017977-f9a39d80-6949-11ea-8b26-4b301e9490f2.png)
 
 _Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada._
 
