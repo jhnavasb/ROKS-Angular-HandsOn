@@ -23,7 +23,7 @@ _En este momneto nos pide un codigo de seguridad, el cual debemos obtener en el 
 ```
 https://identity-2.us-south.iam.cloud.ibm.com/identity/passcode
 ```
-_Al digitar el comando anterior nos aparecera una pregunta en la cual debemos indicar el numero perteneciente a la cuenta en la que se va a tranajar._
+_Al digitar el comando anterior nos aparecera una pregunta en la cual debemos indicar el numero perteneciente a la cuenta en la que se va a trabajar._
 
 _2.	Configure el entorno de trabajo. Es necesario asignar (target) la region y el grupo de recursos, en donde esta desplegado el cluster de Open Shift, que vamos a utilizar en el ejercicio.
 
