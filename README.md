@@ -124,7 +124,9 @@ _•Buscar el proyecto que creo con sus iniciales y buscar la aplicación que se
 
 _Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada._
 
-<img width="688" alt="4" src="https://user-images.githubusercontent.com/60987042/76919471-074c1b00-6897-11ea-95c7-e8675b91ec80.PNG">
+
+![12](https://user-images.githubusercontent.com/60987042/77018166-89494c00-694a-11ea-9f7e-f05d109631d0.png)
+
 
 _De esta forma se daría por terminado el despliegue de la aplicación angular en openshift._
 
