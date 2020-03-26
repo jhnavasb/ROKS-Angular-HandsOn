@@ -204,11 +204,32 @@ _**NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferen
 
 _4. Dirigirse a la sección de clusters._
 
-
+![111111111111](https://user-images.githubusercontent.com/60987042/77703986-1ebb9000-6f8a-11ea-8593-79b70b9e85b7.png)
 
 _5. Ingresar al cluster que lleva por nombre openshift.311._
 
 _6. Ingrese a la sección de openshift web console._
+
+**a.** Dirijase al catalogo y seleccione la opcion Node.js
+
+**b.** Una vez seleccionada, presione "Next" y proporciones el nombre de la aplicación, la URL del git donde se encuentra el proyecto a desplegar y presione "Create".
+
+<p align="center">
+<img width="668" alt="img7" src="https://user-images.githubusercontent.com/40369712/77024355-527c3180-695c-11ea-8f74-d58c9d5c8999.png">
+</p>
+
+---
+
+**Nota:** Espere unos mintos mientras el proceso de construcción y despliegue de la aplicación se termina.
+
+---
+
+**b.** Una vez terminado el proceso de despliegue puede dirigirse a Overview, donde podra ver la URL mediante la cual podra acceder al CRUD de MongoDB
+
+<p align="center">
+<img width="783" alt="img9" src="https://user-images.githubusercontent.com/40369712/77024952-d682e900-695d-11ea-8724-ffa8b08c8b58.png">
+</p>
+
 
 # _ANEXOS._
 
