@@ -214,9 +214,9 @@ _6. Ingrese a la sección de openshift web console._
 
 _7. En este momento estamos en el catalogo de OpenShift, ahora se debe seleccionar la opcion Node.js_
 
+![333](https://user-images.githubusercontent.com/60987042/77705089-c33ed180-6f8c-11ea-987b-c2758d96dec9.png)
 
-
-**b.** Una vez seleccionada, presione "Next" y proporciones el nombre de la aplicación, la URL del git donde se encuentra el proyecto a desplegar y presione "Create".
+_8. Una vez seleccionada, presione "Next" y proporcione el nombre de la aplicación, la URL del git donde se encuentra el proyecto a desplegar y presione "Create"._
 
 <p align="center">
 <img width="668" alt="img7" src="https://user-images.githubusercontent.com/40369712/77024355-527c3180-695c-11ea-8f74-d58c9d5c8999.png">
