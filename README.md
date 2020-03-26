@@ -193,13 +193,18 @@ _1. Ingrese a IBM cloud desde el siguiente link:_
 ```
 https://cloud.ibm.com/login
 ```
-![Captura de pantalla de 2020-03-26 17-25-55](https://user-images.githubusercontent.com/60987042/77702638-f8482580-6f86-11ea-9a83-9714df69ec38.png)
-
 _2. Realice el login con sus credenciales de ingreso._
+
+![Captura de pantalla de 2020-03-26 17-25-55](https://user-images.githubusercontent.com/60987042/77702638-f8482580-6f86-11ea-9a83-9714df69ec38.png)
 
 _3. Dirijase al resource list._
 
+<img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
+_**NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferentes cuantas que tiene disponibles para trabajar. Para este caso debe asegurase que se encuentre en la cuenta: **1699257_......**_
+
 _4. Dirigirse a la sección de clusters._
+
+
 
 _5. Ingresar al cluster que lleva por nombre openshift.311._
 
