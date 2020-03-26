@@ -195,16 +195,21 @@ https://cloud.ibm.com/login
 ```
 _2. Realice el login con sus credenciales de ingreso._
 
+---
 ![Captura de pantalla de 2020-03-26 17-25-55](https://user-images.githubusercontent.com/60987042/77702638-f8482580-6f86-11ea-9a83-9714df69ec38.png)
+---
 
 _3. Dirijase al resource list._
-
+---
 <img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
+---
 _**NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferentes cuantas que tiene disponibles para trabajar. Para este caso debe asegurase que se encuentre en la cuenta:**1699257_......**_
 
 _4. Dirigirse a la sección de clusters._
 
+---
 ![111111111111](https://user-images.githubusercontent.com/60987042/77703986-1ebb9000-6f8a-11ea-8593-79b70b9e85b7.png)
+---
 
 _5. Ingresar al cluster que lleva por nombre openshift.311._
 
@@ -213,14 +218,25 @@ _6. Ingrese a la sección de openshift web console._
 ![22222](https://user-images.githubusercontent.com/60987042/77704788-e0bf6b80-6f8b-11ea-95d4-0cd24368b721.png)
 
 _7. En este momento estamos en el catalogo de OpenShift, ahora se debe seleccionar la opcion Node.js_
+---
 
 ![333](https://user-images.githubusercontent.com/60987042/77705089-c33ed180-6f8c-11ea-987b-c2758d96dec9.png)
 
+---
 _8. Una vez seleccionada, presione "Next" y proporcione el nombre de la aplicación, la URL del git donde se encuentra el proyecto a desplegar y presione "Create"._
 
 <p align="center">
 <img width="668" alt="img7" src="https://user-images.githubusercontent.com/40369712/77024355-527c3180-695c-11ea-8f74-d58c9d5c8999.png">
 </p>
+
+_si desea desplegar desplegar un HelloWord de nodejs puede utilizar el siguiente repositorio de github:_
+```
+https://github.com/openshift/nodejs-ex.git
+```
+
+_9. Para ver el link de despliegue se debe dar clic en "Continue to the project overview"._
+
+
 
 ---
 
@@ -228,7 +244,7 @@ _8. Una vez seleccionada, presione "Next" y proporcione el nombre de la aplicaci
 
 ---
 
-**b.** Una vez terminado el proceso de despliegue puede dirigirse a Overview, donde podra ver la URL mediante la cual podra acceder al CRUD de MongoDB
+_10. Una vez terminado el proceso de despliegue puede dirigirse a Overview, donde podra ver la URL mediante la cual podra acceder al CRUD de MongoDB_
 
 <p align="center">
 <img width="783" alt="img9" src="https://user-images.githubusercontent.com/40369712/77024952-d682e900-695d-11ea-8724-ffa8b08c8b58.png">
