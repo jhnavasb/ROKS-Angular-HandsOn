@@ -236,7 +236,7 @@ https://github.com/openshift/nodejs-ex.git
 
 _9. Para ver el link de despliegue se debe dar clic en "Continue to the project overview"._
 
-
+![555](https://user-images.githubusercontent.com/60987042/77705724-680dde80-6f8e-11ea-8736-2f7ba04e45c2.png)
 
 ---
 
@@ -244,11 +244,9 @@ _9. Para ver el link de despliegue se debe dar clic en "Continue to the project 
 
 ---
 
-_10. Una vez terminado el proceso de despliegue puede dirigirse a Overview, donde podra ver la URL mediante la cual podra acceder al CRUD de MongoDB_
+_10. Una vez terminado el proceso de despliegue puede dirigirse a Overview, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
 
-<p align="center">
-<img width="783" alt="img9" src="https://user-images.githubusercontent.com/40369712/77024952-d682e900-695d-11ea-8724-ffa8b08c8b58.png">
-</p>
+
 
 
 # _ANEXOS._
