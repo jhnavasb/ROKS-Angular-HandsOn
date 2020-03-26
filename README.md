@@ -285,6 +285,23 @@ _6. Ingrese a la sección de openshift web console._
 
 _7. Ahora debemos seleccionar el proyecto en el que queremos trabajar o creamos uno._
 
+![7777](https://user-images.githubusercontent.com/60987042/77706550-b3c18780-6f90-11ea-803e-4e74478cee69.png)
+
+_8. Dar clic en la sección **Add do Project** y luego en la sección ***Deploy Image*._
+
+![888](https://user-images.githubusercontent.com/60987042/77706608-e1a6cc00-6f90-11ea-97fe-bc39d4f4f87c.png)
+
+_9. Al dar clic en Deploy Image se abre una ventana en la cual debemos seleccionar el campo **Image Name** y llenar el campo con la ruta fuente de la imagen docker, y dar enter._
+
+![101010](https://user-images.githubusercontent.com/60987042/77706930-bbcdf700-6f91-11ea-8442-26569c617234.png)
+
+
+_10. Si reconoce la imagen docker, se debe habilitar la opción para dar clic en **Deploy**_, y al dar clic acá se inicia a desplegar la aplicación por lo que se debe esperar un momento minetras se realiza el despliegue.
+
+_11. Una vez terminado el proceso de despliegue puede dirigirse a Overview, donde podra ver la URL mediante la cual podra acceder a la aplicacion ya desplegada._
+
+
+![66666](https://user-images.githubusercontent.com/60987042/77705939-0437e580-6f8f-11ea-80f7-f8945d7cce92.png)
 
 
 # _ANEXOS._
