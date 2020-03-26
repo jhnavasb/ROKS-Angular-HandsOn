@@ -187,6 +187,9 @@ http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-
 
 ## Despliegue Aplicación Hello World en Nodejs Desde la consola wed de OpenShif 📦
 
+_Para realizar el despliegue desde la consola web de OpenShif de una  manera mas intuitiva se deben seguir los siguientes pasos:_
+
+
 
 # _ANEXOS._
 
