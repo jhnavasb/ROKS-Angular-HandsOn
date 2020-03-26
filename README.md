@@ -250,6 +250,42 @@ _10. Una vez terminado el proceso de despliegue puede dirigirse a Overview, dond
 ![66666](https://user-images.githubusercontent.com/60987042/77705939-0437e580-6f8f-11ea-80f7-f8945d7cce92.png)
 
 
+## Despliegue de una imagen Docker en un contenedor de Opeshift 🛠️
+
+_Para realizar el despliegue de una aplicación que se encuentra alojada en un una imagen de DockerHub se deben realizar los siguintes pasos:_
+
+
+_1. Ingrese a IBM cloud desde el siguiente link:_
+```
+https://cloud.ibm.com/login
+```
+_2. Realice el login con sus credenciales de ingreso._
+
+---
+![Captura de pantalla de 2020-03-26 17-25-55](https://user-images.githubusercontent.com/60987042/77702638-f8482580-6f86-11ea-9a83-9714df69ec38.png)
+---
+
+_3. Dirijase al resource list._
+---
+<img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
+---
+_**NOTA:** En la parte superior derecha al lado de "Manage", aparece las diferentes cuantas que tiene disponibles para trabajar. Para este caso debe asegurase que se encuentre en la cuenta:**1699257_......**_
+
+_4. Dirigirse a la sección de clusters._
+
+---
+![111111111111](https://user-images.githubusercontent.com/60987042/77703986-1ebb9000-6f8a-11ea-8593-79b70b9e85b7.png)
+---
+
+_5. Ingresar al cluster que lleva por nombre openshift.311._
+
+_6. Ingrese a la sección de openshift web console._
+
+![22222](https://user-images.githubusercontent.com/60987042/77704788-e0bf6b80-6f8b-11ea-95d4-0cd24368b721.png)
+
+_7. Ahora debemos seleccionar el proyecto en el que queremos trabajar o creamos uno._
+
+
 
 # _ANEXOS._
 
