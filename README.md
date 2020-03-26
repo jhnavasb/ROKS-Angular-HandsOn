@@ -195,11 +195,14 @@ https://cloud.ibm.com/login
 ```
 ![Captura de pantalla de 2020-03-26 17-25-55](https://user-images.githubusercontent.com/60987042/77702638-f8482580-6f86-11ea-9a83-9714df69ec38.png)
 
-_2. Realice el login con sus credenciales de ingreso. _
+_2. Realice el login con sus credenciales de ingreso._
 
 _3. Dirijase al resource list._
+
 _4. Dirigirse a la sección de clusters._
+
 _5. Ingresar al cluster que lleva por nombre openshift.311._
+
 _6. Ingrese a la sección de openshift web console._
 
 # _ANEXOS._
