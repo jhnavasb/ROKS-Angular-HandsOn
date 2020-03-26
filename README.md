@@ -189,11 +189,20 @@ http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-
 
 _Para realizar el despliegue desde la consola web de OpenShif de una  manera mas intuitiva se deben seguir los siguientes pasos:_
 
+_1. Ingrese a IBM cloud desde el siguiente link:_
+```
+http://cloud.ibm.com/
+```
+_2. Realice el login con sus credenciales de ingreso. _
 
+_3. Dirijase al resource list._
+_4. Dirigirse a la sección de clusters._
+_5. Ingresar al cluster que lleva por nombre openshift.311._
+_6. Ingrese a la sección de openshift web console._
 
 # _ANEXOS._
 
-_Si se desea realizar el mismo despliegue, pero desde la maquina local se deberían seguir los siguientes pasos:_
+_Si se desea realizar el mismo despliegue desde la cli, pero desde la maquina local se deberían seguir los siguientes pasos:_
 
 ## Pre-requisitos 📋
 
