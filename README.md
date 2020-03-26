@@ -191,8 +191,9 @@ _Para realizar el despliegue desde la consola web de OpenShif de una  manera mas
 
 _1. Ingrese a IBM cloud desde el siguiente link:_
 ```
-http://cloud.ibm.com/
+https://cloud.ibm.com/login
 ```
+
 _2. Realice el login con sus credenciales de ingreso. _
 
 _3. Dirijase al resource list._
