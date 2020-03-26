@@ -185,6 +185,9 @@ Como ejercicio adicional, se recomienda configurar ConfigMap para utlizar parame
 La siguiente es la URL de el despliegue de esta aplicación demo:
 http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/inicio
 
+## Despliegue Aplicación Hello World en Nodejs Desde la consola wed de OpenShif 📦
+
+
 # _ANEXOS._
 
 _Si se desea realizar el mismo despliegue, pero desde la maquina local se deberían seguir los siguientes pasos:_
