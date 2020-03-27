@@ -252,7 +252,7 @@ _10. Una vez terminado el proceso de despliegue puede dirigirse a Overview, dond
 ![66666](https://user-images.githubusercontent.com/60987042/77705939-0437e580-6f8f-11ea-80f7-f8945d7cce92.png)
 
 
-## Despliegue de una imagen Docker en un contenedor de Opeshift 🛠️
+## Despliegue de una imagen Docker en un contenedor de Opeshift 📦
 
 _Para realizar el despliegue de una aplicación que se encuentra alojada en un una imagen de DockerHub se deben realizar los siguintes pasos:_
 
@@ -306,6 +306,37 @@ _11. Una vez terminado el proceso de despliegue puede dirigirse a Overview, dond
 
 ![66666](https://user-images.githubusercontent.com/60987042/77705939-0437e580-6f8f-11ea-80f7-f8945d7cce92.png)
 
+
+## Configurar el Auto escalamiento de Pods en un despliegue de Opeshift 🛠️
+
+Para poder configurar el auto escalamiento de pods de una aplicación de OpenShift debemos seguir los siguinetes pasos:
+
+_1. Ya estando en la pagina principal de OpenShift en IBM cloud, primero debemos ingresar al proyecto que se quiere configurar._
+
+_2. Damos clic en la sección **Applications** y despues donde dice **Deployments**, y ahi buscamos nuestro proyecto y le damos clic._
+
+![1111121212](https://user-images.githubusercontent.com/60987042/77762008-e312db80-7006-11ea-83e0-1cfaf2381db8.png)
+
+_3. Al entrar en nuestro proyecto debemos dar clic en la parte superior derecha, en la sección que dice **Actions*._
+
+![2222121](https://user-images.githubusercontent.com/60987042/77762404-79470180-7007-11ea-987d-d255a7051a09.png)
+
+_4. Dar clic en la sección **Add Autoscaler**._
+
+![autoS](https://user-images.githubusercontent.com/60987042/77762560-b8755280-7007-11ea-92c1-eee23914c7b0.png)
+
+_5. llenamos cada uno de los campos según los requeriminetos que tengamos del numero de pods y del % de CPU, y finalizamos dando clic en **save**._
+
+
+![ConfAuto](https://user-images.githubusercontent.com/60987042/77762729-f8d4d080-7007-11ea-89e3-ec427faa67af.png)
+
+_6. Verificar si la aplicación quedo aprobiconada con el autoescalamineto._
+
+_Para verificar este paso, damos clic en **Overwiew** y miramos si efectivamente se configuro con Autoscaler._
+
+![wiew](https://user-images.githubusercontent.com/60987042/77763353-edce7000-7008-11ea-92a3-6b05b1afcae7.png)
+
+__
 
 # _ANEXOS._
 
