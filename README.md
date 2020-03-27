@@ -160,30 +160,6 @@ _Y por último solo faltaría dar clic en el link que lo llevara a la aplicació
 
 <img width="688" alt="4" src="https://user-images.githubusercontent.com/60987042/76919471-074c1b00-6897-11ea-95c7-e8675b91ec80.PNG">
 
-## Despliegue Aplicación CRUD en Angular 📦
-
-Como ejercicio OPCIONAL se puede realizar el despligue de una aplicación en una arquitectura multi-capa.  Esta aplicación de ejemplo es una aplicación que permite crear transacciones (giros), que son almacenados en una base de datos.   
-
-La aplicación esta compuesta por 3 contenedores: 
-
-- Front, front desarrollado en Angular, para la interfaz de usuario Web
-- CRUD,  backend desarrollado en express, que expone API's para la operaciones hacia la base de datos
-- MongoDB, un contenedor con el motor de la base de datos MongoDB
-
-Para realizar este ejercicio, se pueden seguir las siguientes guias, en donde se encuentra el código de la aplicación de ejemplo: 
-
-Despliegue de base de datos y back-end de la aplicación:
-https://github.com/emeloibmco/AngularWebCRUDMongo
-
-Despliegue de front de aplicación:
-https://github.com/emeloibmco/AngularWebFrontCRUD
-
-Es recomendable realizar el despliegue del back-end, y luego el despliegue del front.  Se requiere modificar las credenciales y las URL's especificas cuando para completar el ejercicio. 
-
-Como ejercicio adicional, se recomienda configurar ConfigMap para utlizar parametros en variables de ambiente  para las URL's, y Secrets para almacenar credenciales y contraseñas en Open Shift.
-
-La siguiente es la URL de el despliegue de esta aplicación demo:
-http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/inicio
 
 ## Despliegue Aplicación Hello World en Nodejs Desde la consola wed de OpenShif 📦
 
@@ -337,6 +313,33 @@ _Para verificar este paso, damos clic en **Overwiew** y miramos si efectivamente
 ![wiew](https://user-images.githubusercontent.com/60987042/77763353-edce7000-7008-11ea-92a3-6b05b1afcae7.png)
 
 __
+
+
+## Despliegue Aplicación CRUD en Angular 📦
+
+Como ejercicio OPCIONAL se puede realizar el despligue de una aplicación en una arquitectura multi-capa.  Esta aplicación de ejemplo es una aplicación que permite crear transacciones (giros), que son almacenados en una base de datos.   
+
+La aplicación esta compuesta por 3 contenedores: 
+
+- Front, front desarrollado en Angular, para la interfaz de usuario Web
+- CRUD,  backend desarrollado en express, que expone API's para la operaciones hacia la base de datos
+- MongoDB, un contenedor con el motor de la base de datos MongoDB
+
+Para realizar este ejercicio, se pueden seguir las siguientes guias, en donde se encuentra el código de la aplicación de ejemplo: 
+
+Despliegue de base de datos y back-end de la aplicación:
+https://github.com/emeloibmco/AngularWebCRUDMongo
+
+Despliegue de front de aplicación:
+https://github.com/emeloibmco/AngularWebFrontCRUD
+
+Es recomendable realizar el despliegue del back-end, y luego el despliegue del front.  Se requiere modificar las credenciales y las URL's especificas cuando para completar el ejercicio. 
+
+Como ejercicio adicional, se recomienda configurar ConfigMap para utlizar parametros en variables de ambiente  para las URL's, y Secrets para almacenar credenciales y contraseñas en Open Shift.
+
+La siguiente es la URL de el despliegue de esta aplicación demo:
+http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/inicio
+
 
 # _ANEXOS._
 
