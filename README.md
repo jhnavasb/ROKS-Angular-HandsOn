@@ -89,7 +89,7 @@ _**App de hello Word en angular:** https://github.com/emeloibmco/AngularHelloWor
 _7.	Desde el Shell de IBM cloud digite el comando:_
 
 ```
-Git clone <url_repositorio>
+git clone <url_repositorio>
 ```
 _8.	Dirigirse desde a esta carpeta con el comando:_
 
