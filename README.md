@@ -161,7 +161,7 @@ _Y por último solo faltaría dar clic en el link que lo llevara a la aplicació
 <img width="688" alt="4" src="https://user-images.githubusercontent.com/60987042/76919471-074c1b00-6897-11ea-95c7-e8675b91ec80.PNG">
 
 
-## Despliegue Aplicación Hello World en Nodejs Desde la consola wed de OpenShif 📦
+## Despliegue Aplicación Hello World en Nodejs Desde la consola web de OpenShift 📦
 
 _Para realizar el despliegue desde la consola web de OpenShif de una  manera mas intuitiva se deben seguir los siguientes pasos:_
 
